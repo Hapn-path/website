@@ -4,3 +4,50 @@
     margin:0 auto;
     padding:20px;
 }
+
+body{
+    background: url("background.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo{
+    margin-top:100px;   
+}
+
+.row{
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+}
+
+.text{
+    width:20%;
+}
+
+.privacy{
+    margin-top:200px;
+    width:10%;
+}
+
+.copyright{
+    width:10%;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        background-size: auto;
+    }
+
+    .text{
+        width:50%;
+    }
+
+    .privacy{
+        width:50%;
+    }
+    
+    .copyright{
+        width:20%;
+    }
+  }
