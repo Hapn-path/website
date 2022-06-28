@@ -1,6 +1,7 @@
 html,body{
     margin:0;
     height:100%;
+    background-color:black;
 }
 
 #khdgc{
@@ -32,6 +33,7 @@ html,body{
     position:relative;
     top:35px;
     display:inline-block;
+    margin-bottom:20px;
 }
 
 #link{
@@ -47,6 +49,7 @@ html,body{
     }
 
     .row{
-        bottom:220px;
+        bottom:0px;
+        background-color:black;
     }
   }

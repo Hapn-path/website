@@ -33,11 +33,14 @@ html,body{
     position:relative;
     top:35px;
     display:inline-block;
+    margin-bottom:20px;
 }
 
 #link{
     background-color:white;
 }
+
+
 
 @media only screen and (max-width: 600px) {
     #text {
