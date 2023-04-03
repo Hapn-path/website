@@ -35,7 +35,7 @@
 }
 
 #mobileCta{
-    font-size: 120%;
+    font-size: 118%;
     direction: rtl;
     display: inline-block;
     width: 102%;
@@ -43,6 +43,7 @@
     margin-bottom: -27px;
     font-family: 'Kurye';
     color: #FFFFFF;
+    margin-left:-5px;
 }
 
 .hapnIcon{
