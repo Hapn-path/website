@@ -1,0 +1,121 @@
+.container{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.row{
+    width:100%;
+    margin:0 auto;
+    background: linear-gradient(97.05deg, #784AE8 1.5%, #FF694F 78.95%, #CC30BA 160.76%);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+}
+
+.twoThird{
+    display:inline-block;
+    width:57%;
+
+}
+
+.oneThird{
+    width: 34%;
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    bottom: 47px;
+    contain: content;
+}
+
+.topBar{
+    height: 110px;
+    margin-top: 20px;
+}
+
+#mobileCta{
+    font-size: 120%;
+    direction: rtl;
+    display: inline-block;
+    width: 102%;
+    float: left;
+    margin-bottom: -27px;
+    font-family: 'Kurye';
+    color: #FFFFFF;
+}
+
+.hapnIcon{
+    background-image: url(hapnIcon.png);
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 23%;
+    float: right;
+    position: relative;
+    left: 57px;
+    bottom: 10px;
+}
+
+.oneThird i{
+    zoom:2;
+    color:white;
+}
+
+.poster{
+    width:100%;
+    margin-bottom:-5px;
+}
+
+.menu{
+    background-color: black;
+    display: none;
+    padding-top: 20px;
+    height: 800px;
+    color: white;
+    text-align: center;
+    font-family: 'Kurye';
+}
+
+.menuItem{
+    margin-bottom:5%;
+}
+
+.lines{
+    background-image:url(lines.png);
+    height: 61px;
+    background-color: black;
+}
+
+.footer{
+    height:115px;
+    background-color:#784AE8;
+    margin-top: -5px;
+}
+
+.footerText{
+    width: 50%;
+    color: white;
+    font-family: 'Kurye';
+    font-size: 104%;
+    padding-left: 5%;
+    display: inline-block;
+}
+
+.footerBtn{
+    width:40%;
+    display:inline-block;
+}
+
+.exit{
+    display:none;
+    color: white;
+    font-family: 'Kurye';
+}
+
+#gradient{
+    color:#FF694F;
+}
+
+
