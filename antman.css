@@ -120,3 +120,120 @@
 }
 
 
+.aboutUs{
+    background-color: black;
+    color:white;
+}
+
+.cta{
+    background-image:url(about.png);
+    height: 169px;
+    background-repeat: no-repeat;
+    font-family: 'Kurye';
+}
+
+.headline{
+    text-align:center;
+    padding-top:20%;
+    font-size: 20px;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #1FE3CF;
+}
+
+.lead{
+    text-align:center;
+    font-family: 'Kurye';
+    margin-left: 10%;
+    margin-right: 10%;
+    border-bottom:1px solid #1FE3CF;
+}
+
+.description{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    
+    font-feature-settings: 'liga' off;
+    margin-left: 5%;
+    margin-right: 2%;
+    font-size: 15px;
+}
+
+.smallLead h4{
+    font-family: 'Kurye';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+    
+    display: flex;
+    align-items: center;
+    font-feature-settings: 'liga' off;
+    
+    /* hapn - White */
+    
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-color: #1FE3CF;
+    margin-left:5%;
+}
+
+.smallerLead{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+/* or 125% */
+
+font-feature-settings: 'liga' off;
+
+/* hapn - White */
+
+color: #FFFFFF;
+margin-left:5%;
+}
+
+.subscribe{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    
+    font-feature-settings: 'liga' off;
+    
+    /* hapn - White */
+    
+    color: #FFFFFF;
+    margin-left:5%;
+
+}
+
+.subscribe input{
+    width:90%; 
+}
+
+.subscribe button{
+    width: 110px;
+height: 44px;
+
+/* hapn - Gradient 2 */
+
+background: linear-gradient(97.05deg, #1FE3CF 1.5%, #784AE8 80.69%, #CC30BA 121.6%, #FF694F 168.59%);
+border-radius: 40px;
+color:white;
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+}
+
+
