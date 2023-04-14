@@ -30,7 +30,7 @@
 }
 
 .topBar{
-    height: 110px;
+    height: 90px;
     margin-top: 20px;
 }
 
@@ -127,6 +127,13 @@
 
 .cta{
     background-image:url(about.png);
+    height: 169px;
+    background-repeat: no-repeat;
+    font-family: 'Kurye';
+}
+
+.ctaPolicy{
+    background-image:url(privacy.png);
     height: 169px;
     background-repeat: no-repeat;
     font-family: 'Kurye';
@@ -234,6 +241,159 @@ font-family: 'Nunito Sans';
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
+margin-left:55%;
+}
+
+.contactCta{
+    background-image:url(contact.png);
+    height: 169px;
+    background-repeat: no-repeat;
+    font-family: 'Kurye';
 }
 
 
+.footer div{
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 20px;
+/* or 170% */
+
+text-align: center;
+font-feature-settings: 'liga' off;
+
+/* hapn - White */
+
+color: #FFFFFF;
+text-align:center;
+padding-top:10%;
+}
+
+
+.contactRow{
+    width:100%;
+    margin:0 auto;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+#iconEmail{
+    background-image:url(email.svg);
+    background-repeat: no-repeat;
+
+    height:20px;
+    width:6%;
+    float:left;
+    margin-left:5%;
+}
+
+#textEmail{
+    width:70%;
+    margin-left:50px;
+}
+
+#iconPhone{
+    background-image:url(place.svg);
+    background-repeat: no-repeat;
+
+    height:20px;
+    width:6%;
+    float:left;
+    margin-left:5%;
+}
+
+#textPhone{
+    width:70%;
+    margin-left:50px;
+}
+
+#iconPlace{
+    background-image:url(phone.svg);
+    background-repeat: no-repeat;
+
+    height:20px;
+    width:6%;
+    float:left;
+    margin-left:5%;
+}
+
+#textPlace{
+    width:70%;
+    margin-left:50px;
+}
+
+.privacyCta{
+    background-image:url(privacy.png);
+    height: 169px;
+    background-repeat: no-repeat;
+    font-family: 'Kurye';
+}
+
+.privRow{
+    width:90%;
+    margin:0 auto;
+    border-bottom:1px solid white;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    color: white;
+    height: 50px;
+    margin-top: 10px;
+
+
+    
+}
+
+.privCol1{
+    margin-left:5px;
+    width:10%;
+    display:inline-block;
+}
+
+.privCol2{
+    width:80%;
+    display:inline-block;
+}
+
+.privCol3{
+    width:5%;
+    display:inline-block;
+    zoom:150%;
+}
+
+
+.privacyLead{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'liga' off;
+    margin-left: 5%;
+    padding-top: 10%;
+}
+
+.privacyText{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+    margin-left: 5%;
+    margin-top: 5%;
+    display:none;
+}
+
+#genOut{
+    display:none;
+}
+
+
+#polOut{
+    display:none;
+}

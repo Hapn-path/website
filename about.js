@@ -1,8 +1,10 @@
+console.log('about connected');
+
 document.querySelector("body > div > div > div.topBar > div.oneThird > i").addEventListener('click', function(){
 
 
 
-    document.querySelector("body > div > div > img").style.display = "none";
+    document.getElementById("aboutMenu").style.display = "none";
     document.querySelector("body > div > div > div.menu").style.display = "block";
     document.querySelector("body > div > div > div.topBar > div.oneThird > i").style.display = 'none';
     document.querySelector("body > div > div > div.topBar > div.oneThird > div").style.display = 'block';
@@ -12,11 +14,13 @@ document.querySelector("body > div > div > div.topBar > div.oneThird > i").addEv
 
 document.querySelector("body > div > div > div.topBar > div.oneThird > div").addEventListener('click', function(){
 
-    document.querySelector("body > div > div > img").style.display = "block";
+
+    document.getElementById("aboutMenu").style.display = "block";
     document.querySelector("body > div > div > div.menu").style.display = "none";
     document.querySelector("body > div > div > div.topBar > div.oneThird > i").style.display = 'block';
     document.querySelector("body > div > div > div.topBar > div.oneThird > div").style.display = 'none';
 })
+
 
 
 document.querySelector("#aboutUs").addEventListener('click', function(){    
@@ -31,3 +35,4 @@ document.querySelector("#contact").addEventListener('click', function(){
 document.querySelector("#privacy").addEventListener('click', function(){    
     window.location.href="privacy.html"
 });
+
