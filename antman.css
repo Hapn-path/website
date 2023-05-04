@@ -11,7 +11,7 @@
     left: 0px;
     right: 0px;
     top: 0px;
-    height: 100%;
+    height: 740px;
 }
 
 .twoThird{
@@ -72,7 +72,7 @@
 }
 
 .poster{
-    width:60%;
+    width:80%;
     margin:0 auto;
     margin-bottom:-5px;
     margin-top:110px;
@@ -99,7 +99,7 @@
 }
 
 .footer{
-    height:115px;
+    height:100%;
     background-color:#784AE8;
     margin-top: -5px;
     position:fixed;
