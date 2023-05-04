@@ -7,7 +7,7 @@
     width:100%;
     margin:0 auto;
     background: linear-gradient(97.05deg, #784AE8 1.5%, #FF694F 78.95%, #CC30BA 160.76%);
-    position: absolute;
+    position: fixed;
     left: 0px;
     right: 0px;
     top: 0px;
@@ -33,6 +33,7 @@
     height: 90px;
     margin-top: 20px;
 }
+
 
 #mobileCta{
     font-size: 118%;
@@ -93,6 +94,7 @@
     height:115px;
     background-color:#784AE8;
     margin-top: -5px;
+    position:fixed;
 }
 
 .footerText{
