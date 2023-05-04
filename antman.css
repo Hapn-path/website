@@ -6,7 +6,7 @@
 .row{
     width:100%;
     margin:0 auto;
-    background: linear-gradient(97.05deg, #784AE8 1.5%, #FF694F 78.95%, #CC30BA 160.76%);
+    background: black;
     position: fixed;
     left: 0px;
     right: 0px;
@@ -17,6 +17,7 @@
 .twoThird{
     display:inline-block;
     width:57%;
+        margin-top: 20px;
 
 }
 
@@ -27,11 +28,16 @@
     position: relative;
     bottom: 47px;
     contain: content;
+        margin-top: 20px;
 }
 
 .topBar{
-    height: 90px;
-    margin-top: 20px;
+    height: 110px;
+    /* margin-top: 20px; */
+    background: linear-gradient(97.05deg, #784AE8 1.5%, #FF694F 78.95%, #CC30BA 160.76%);
+    position:fixed;
+    width:100%;
+    margin:0 auto;
 }
 
 
@@ -66,14 +72,16 @@
 }
 
 .poster{
-    width:100%;
+    width:60%;
+    margin:0 auto;
     margin-bottom:-5px;
+    margin-top:110px;
 }
 
 .menu{
     background-color: black;
     display: none;
-    padding-top: 20px;
+    padding-top: 125px;
     height: 800px;
     color: white;
     text-align: center;
