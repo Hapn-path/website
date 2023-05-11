@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Kurye;
+    src: url("KuryeRegular.otf") format("opentype");
+}
+
 .container{
     display:grid;
     grid-template-columns: auto auto auto auto;
@@ -53,13 +58,14 @@
 
 
 #mobileCta{
-    font-size: 118%;
+    font-size: 120%;
     direction: rtl;
     display: inline-block;
     width: 102%;
     float: left;
     margin-bottom: -27px;
     font-family: 'Kurye';
+    font-weight:900;
     color: #FFFFFF;
     margin-left:-5px;
 }
@@ -78,7 +84,7 @@
 }
 
 .oneThird i{
-    zoom:2;
+    zoom:1.5;
     color:white;
 }
 
@@ -168,6 +174,7 @@
     text-decoration: underline;
     text-underline-position: under;
     text-decoration-color: #1FE3CF;
+    font-weight:900;
 }
 
 .lead{
