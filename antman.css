@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Kurye;
+    font-family: KuryeHapn;
     src: url("KuryeRegular.otf") format("opentype");
 }
 
@@ -64,7 +64,7 @@
     width: 102%;
     float: left;
     margin-bottom: -27px;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
     font-weight:900;
     color: #FFFFFF;
     margin-left:-5px;
@@ -102,7 +102,7 @@
     height: 800px;
     color: white;
     text-align: center;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
 }
 
 .menuItem{
@@ -125,7 +125,7 @@
 .footerText{
     width: 50%;
     color: white;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
     font-size: 104%;
     padding-left: 5%;
     display: inline-block;
@@ -139,7 +139,7 @@
 .exit{
     display:none;
     color: white;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
 }
 
 #gradient{
@@ -157,14 +157,14 @@
     background-image:url(about.png);
     height: 169px;
     background-repeat: no-repeat;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
 }
 
 .ctaPolicy{
     background-image:url(privacy.png);
     height: 169px;
     background-repeat: no-repeat;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
 }
 
 .headline{
@@ -179,7 +179,7 @@
 
 .lead{
     text-align:center;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
     margin-left: 10%;
     margin-right: 10%;
     border-bottom:1px solid #1FE3CF;
@@ -200,7 +200,7 @@
 }
 
 .smallLead h4{
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -277,7 +277,7 @@ margin-left:55%;
     background-image:url(contact.png);
     height: 169px;
     background-repeat: no-repeat;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
 }
 
 
@@ -359,7 +359,7 @@ padding-top:10%;
     background-image:url(privacy.png);
     height: 169px;
     background-repeat: no-repeat;
-    font-family: 'Kurye';
+    font-family: KuryeHapn;
 }
 
 .privRow{
