@@ -18,6 +18,9 @@ document.querySelector("body > div > div > div.topBar > div.oneThird > div").add
     document.querySelector("body > div > div > div.topBar > div.oneThird > div").style.display = 'none';
 })
 
+document.querySelector("#home").addEventListener('click', function(){    
+    window.location.href="mobile_template.html"
+});
 
 document.querySelector("#aboutUs").addEventListener('click', function(){    
     window.location.href="about.html"
