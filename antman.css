@@ -63,7 +63,7 @@
 
 
 #mobileCta{
-    font-size: 120%;
+    font-size: 130%;
     direction: rtl;
     display: inline-block;
     width: 102%;
@@ -444,5 +444,45 @@ padding-top:10%;
 
 
 #dataOut{
+    display:none;
+}
+
+
+#collectOut{
+    display:none;
+}
+
+#shareOut{
+    display:none;
+}
+
+#choiceOut{
+    display:none;
+}
+
+#personOut{
+    display:none;
+}
+
+#busOut{
+    display:none;
+}
+
+#childOut{
+    display:none;
+}
+
+#euOut{
+    display:none;
+}
+
+#caOut{
+    display:none;
+}
+#changeOut{
+    display:none;
+}
+
+#forOut{
     display:none;
 }
