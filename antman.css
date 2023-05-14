@@ -1,14 +1,16 @@
 @font-face {
     font-family: KuryeHapn;
-    src: url("KuryeRegular.otf") format("opentype");
+    src: url("kuryeCustom.ttf") format("opentype");
 }
 
-.container{
+.container{      
+    font-family: KuryeHapn;                                     
     display:grid;
     grid-template-columns: auto auto auto auto;
 }
 
 .row{
+    font-family: KuryeHapn;   
     width:100%;
     margin:0 auto;
     background: black;
@@ -20,6 +22,7 @@
 }
 
 .scrollRow{
+    font-family: KuryeHapn;   
     width:100%;
     margin:0 auto;
     background: black;
@@ -48,6 +51,8 @@
 }
 
 .topBar{
+    font-family: KuryeHapn;   
+    font-family: 'Kurye', sans-serif;        
     height: 110px;
     /* margin-top: 20px; */
     background: linear-gradient(97.05deg, #784AE8 1.5%, #FF694F 78.95%, #CC30BA 160.76%);
