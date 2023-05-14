@@ -35,6 +35,43 @@ document.querySelector("#polOut").addEventListener('click', function(){
 
 })
 
+
+
+document.querySelector("#polIn").addEventListener('click', function(){
+    document.getElementById("polText").style.display = "block";
+    document.getElementById("polIn").style.display = "none";
+    document.getElementById("polOut").style.display = "block";
+    document.getElementById("polRow").style.border='none';
+    
+
+})
+
+document.querySelector("#polOut").addEventListener('click', function(){
+    document.getElementById("polText").style.display = "none";
+    document.getElementById("polIn").style.display = "block";
+    document.getElementById("polOut").style.display = "none";
+    document.getElementById("polRow").style.borderBottom='1px solid white';
+
+})
+
+
+document.querySelector("#dataIn").addEventListener('click', function(){
+    document.getElementById("dataText").style.display = "block";
+    document.getElementById("dataIn").style.display = "none";
+    document.getElementById("dataOut").style.display = "block";
+    document.getElementById("dataRow").style.border='none';
+    
+
+})
+
+document.querySelector("#dataOut").addEventListener('click', function(){
+    document.getElementById("dataText").style.display = "none";
+    document.getElementById("dataIn").style.display = "block";
+    document.getElementById("dataOut").style.display = "none";
+    document.getElementById("dataRow").style.borderBottom='1px solid white';
+
+})
+
 document.querySelector("#aboutUs").addEventListener('click', function(){    
     console.log('test')
 });

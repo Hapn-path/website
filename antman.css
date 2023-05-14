@@ -127,6 +127,16 @@
     position:fixed;
 }
 
+.footerScroll{
+    padding-top: 50px;
+    height: 120px;
+    background-color: #784AE8;
+    margin-top: -5px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
 .footerText{
     width: 50%;
     color: white;
@@ -429,5 +439,10 @@ padding-top:10%;
 
 
 #polOut{
+    display:none;
+}
+
+
+#dataOut{
     display:none;
 }

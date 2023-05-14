@@ -42,7 +42,7 @@ document.querySelector("#privacy").addEventListener('click', function(){
 let mybutton = document.getElementById("tops");
 
 
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
 function topFunction() {
     document.body.scrollTop = 0; // For Safari
