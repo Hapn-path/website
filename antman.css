@@ -81,11 +81,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 23%;
+    width: 24%;
     float: right;
     position: relative;
-    left: 57px;
-    bottom: 10px;
+    left: 47px;
+    bottom: 12px;
+    zoom: 1.2;
 }
 
 .oneThird i{
