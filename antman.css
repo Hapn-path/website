@@ -36,12 +36,13 @@
 .twoThird{
     display:inline-block;
     width:57%;
-        margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
 
 }
 
 .oneThird{
-    width: 34%;
+    width: 30%;
     display: inline-block;
     text-align: right;
     position: relative;
