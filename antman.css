@@ -63,7 +63,7 @@
 
 
 #mobileCta{
-    font-size: 130%;
+    font-size: 125%;
     direction: rtl;
     display: inline-block;
     width: 102%;
@@ -84,7 +84,7 @@
     width: 24%;
     float: right;
     position: relative;
-    left: 47px;
+    left: 62px;
     bottom: 12px;
     zoom: 1.2;
 }
