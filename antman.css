@@ -7,6 +7,7 @@
     font-family: KuryeHapn;                                     
     display:grid;
     grid-template-columns: auto auto auto auto;
+    font-weight:bolder;
 }
 
 .row{
@@ -19,6 +20,7 @@
     right: 0px;
     top: 0px;
     height: 740px;
+    font-weight:bolder;
 }
 
 .scrollRow{
@@ -31,6 +33,7 @@
     right: 0px;
     top: 0px;
     height: 740px;
+    font-weight:bolder;
 }
 
 .twoThird{
@@ -59,6 +62,7 @@
     position:fixed;
     width:100%;
     margin:0 auto;
+    font-weight:bolder;
 }
 
 
@@ -73,6 +77,7 @@
     font-weight:900;
     color: #FFFFFF;
     margin-left:10px;
+    font-weight:bolder;
 }
 
 .hapnIcon{
@@ -109,10 +114,12 @@
     color: white;
     text-align: center;
     font-family: KuryeHapn;
+    font-weight:bolder;
 }
 
 .menuItem{
     margin-bottom:5%;
+    font-weight:bolder;
 }
 
 .lines{
@@ -145,6 +152,7 @@
     font-size: 104%;
     padding-left: 5%;
     display: inline-block;
+    font-weight:bolder;
 }
 
 .footerBtn{
@@ -156,6 +164,7 @@
     display:none;
     color: white;
     font-family: KuryeHapn;
+    font-weight:bolder;
 }
 
 #gradient{
@@ -174,6 +183,7 @@
     height: 169px;
     background-repeat: no-repeat;
     font-family: KuryeHapn;
+    font-weight:bolder;
 }
 
 .ctaPolicy{
@@ -181,6 +191,7 @@
     height: 169px;
     background-repeat: no-repeat;
     font-family: KuryeHapn;
+    font-weight:bolder;
 }
 
 .headline{
@@ -199,6 +210,7 @@
     margin-left: 10%;
     margin-right: 10%;
     border-bottom:1px solid #1FE3CF;
+    font-weight:bolder;
 }
 
 .description{
@@ -221,6 +233,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
+    font-weight:bolder;
     /* or 120% */
     
     display: flex;
@@ -294,6 +307,7 @@ margin-left:55%;
     height: 169px;
     background-repeat: no-repeat;
     font-family: KuryeHapn;
+    font-weight:bolder;
 }
 
 
@@ -376,6 +390,7 @@ padding-top:10%;
     height: 169px;
     background-repeat: no-repeat;
     font-family: KuryeHapn;
+    font-weight:bolder;
 }
 
 .privRow{
