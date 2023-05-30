@@ -1,6 +1,6 @@
 @font-face {
     font-family: KuryeHapn;
-    src: url("kuryeRegular.otf") format("opentype");
+    src: url("kuryeCustom.ttf") format("opentype");
 }
 
 .container{      
