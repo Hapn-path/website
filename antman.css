@@ -45,13 +45,14 @@
 }
 
 .oneThird{
-    width: 40%;
+    /* width: 40%; */
     display: inline-block;
     text-align: right;
     position: relative;
     bottom: 20px;
     contain: content;
     margin-top: 20px;
+    left:120px;
 }
 
 .topBar{
@@ -553,5 +554,10 @@ padding-top:10%;
 
 #forOut{
     display:none;
+}
+
+#zDex{
+    z-index: 4 !important;
+    position:relative;
 }
 

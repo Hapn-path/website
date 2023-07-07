@@ -24,7 +24,7 @@
 <body>
     <div class="container">
         <div class="scrollRow">
-            <div class="topBar">
+            <div class="topBar" id="return">
                 <div class="twoThird">
                     <!-- <h1 id="mobileCta"> From a click to a seat, we'll make it</h1>
                     <a href="https://hapn.co/mobile_template.html"><div class="hapnIcon"></div></a> -->
@@ -41,13 +41,13 @@
                         
                         
                 </div>
-                <div class="oneThird">
-                    <i class="fa-solid fa-bars">
+                <div class="oneThird" id="stop">
+                    <i class="fa-solid fa-bars" id="stop">
 						<svg width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M1 1.9155H17M1 7.83099H17M1 13.7465H17" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 							</svg>
 					</i>
-                    <div class="exit">X</div>
+                    <div class="exit" id="stop">X</div>
 
                 </div>
             </div>
@@ -79,11 +79,12 @@
                     Subscribe to receive email updates on all things HAPN<br><br>
                 </div>
 
-                <div class="subscribe"> 
+                <form class="subscribe" method="POST" action="https://api.sheetmonkey.io/form/p9PiCe6u5RJPykpaixvrGi
+                "> 
                     <label for="email">Email</label><br>
                     <input type="text" id="email" name="email" placeholder="Enter your email"><br><br>
-                    <button>Submit</button>
-                </div>
+                    <button type="submit">Submit</button>
+            </form>
 
 
         </div>
