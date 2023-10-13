@@ -23,7 +23,7 @@ document.querySelector("body > div > div > div.topBar > div.oneThird > div").add
 
 
 document.querySelector("#home").addEventListener('click', function(){    
-    window.location.href="mobile_template.html"
+    window.location.href="whathappenslater.html"
 });
 
 document.querySelector("#aboutUs").addEventListener('click', function(){    
@@ -50,7 +50,7 @@ function topFunction() {
   }
 
   document.querySelector("#return").addEventListener('click', function(){    
-    window.location.href="mobile_template.html"
+    window.location.href="whathappenslater.html"
 });
 
 document.querySelector("#stop").addEventListener('click', function(){    
